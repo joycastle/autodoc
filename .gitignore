@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.safehouse
+.venv/
+
+# symlinked source code (project-specific)
+src/
+
+# runtime generated files
+docs/
+_meta/task-queue.yaml
+_meta/task-queue.md
+_meta/task-archive.yaml
+_meta/research-log.md
+_meta/contracts/
+_meta/documentation-gaps.md
+_meta/source-path-mapping.md
+_methodology/06-audience-roles.md
+
+# local settings
+.claude/settings.local.json

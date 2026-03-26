@@ -1,0 +1,12 @@
+[project]
+name = "autodoc"
+version = "0.1.0"
+description = "Documentation automation orchestrator powered by Claude Code"
+requires-python = ">=3.10"
+dependencies = [
+    "textual>=1.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
